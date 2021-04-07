@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Priyanka - One Page Two Column Resume
+% LaTeX Template
+% 
+%
+% Original author:
+% Priyanka Soni
+%
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LAST UPDATED DATE COMMAND = \lastupdated
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{}{Priyanka Soni}{
+\href{mailto:priyankasoni01999@gmail.com}{priyankasoni01999@gmail.com} | +91-7320972030 | Linkedin:\href{https://www.linkedin.com/in/priyanka-soni-131668176}{\bf Priyanka Soni} | Github:\href{https://github.com/PSoni8}{\bf PSoni8}
+}
+
+
+
+
+\begin{minipage}[t]{0.32\textwidth} 
+
+
+
+
+
+
+\section{Education} 
+
+\subsection{MNNIT Allahabad}
+\location{Bachelor of Technology}
+\location{Electronics and Communication Engineering}
+\location{2018-2022}
+\location{GPA:8.11/10}
+\location{Prayagraj,India}
+\sectionsep
+
+\subsection{AISSCE,CBSE}
+\location{DAV Public School}
+\location{Bokaro Steel City, Sector-4}
+\location{2017|Percentage: 94\%}
+\sectionsep
+
+\subsection{AISSE,CBSE}
+\location{BISSS 8/B}
+\location{Bokaro Steel City, Sector-8}
+\location{2015|CGPA:9.4/10(89.3\%)}
+\sectionsep
+
+\section{Technical Skills}
+\runsubsection{Language}
+\location{}
+\textbullet{}C / C++\\
+\sectionsep
+\runsubsection{Development}\\
+\location{Language}
+\textbullet{}JavaScript \textbullet{}Python\\
+\sectionsep
+\location{Frontend} 
+\textbullet{}HTML \textbullet{}CSS \textbullet{}Bootstrap \textbullet{}Reactjs\\
+\sectionsep
+\location{Backend}
+\textbullet{}Nodejs \textbullet{}Expressjs\\
+\sectionsep
+\location{Databases}
+\textbullet{}MySQL \textbullet{}MongoDB\\
+\sectionsep
+\location{Libraries}
+\textbullet{}Numpy \textbullet{}Pandas \textbullet{}Matplotlib \textbullet{}Scikit-learn \textbullet{}Tensorflow \textbullet{}Keras\\
+\sectionsep
+\location{DevOps} 
+\textbullet{}Git/Github \textbullet{}VS Code \textbullet{}Postman \textbullet{}PyCharm \textbullet{}Jupyter Notebook \textbullet{}Kaggle \textbullet{}Google Collab\\
+\sectionsep
+
+\section{Coursework}
+\textbullet{}Data Structures \\
+\textbullet{}Algorithms \\
+\textbullet{}Object Oriented Programming\\
+\textbullet{}Operating System \\ 
+\textbullet{}Machine Learning \\
+\textbullet{}Deep Learning\\
+
+\sectionsep
+
+\section{Programming}
+\textbullet{}Hackerrank - 3 stars, 5 stars \& 4 stars in DSA, C++ \& C respectively. \href{https://www.hackerrank.com/priyankasoni0191}{\bf Link}\\
+\textbullet{}Codechef - Contest rating:1383, Feb. Starters'21-Global Rank:4400 \href{https://www.codechef.com/users/priyanka_1507}{\bf Link}\\
+\textbullet{}Hackerearth - DSA Contest Rank:142 , Feb Easy'21 Rank:262 \href{http://www.hackerearth.com/@priyanka2228}{\bf Link}\\
+\textbullet{}Codeforces - Contest rating:820 \href{https://codeforces.com/profile/PS1507}{\bf Link} \\
+\textbullet{}AtCoder - Contest rating: 21 \href{https://atcoder.jp/users/PSoni}{\bf Link}\\
+\textbullet{}Leetcode - Contest pt:1394 \href{https://leetcode.com/priyanka_1507/}{\bf Link}\\
+
+
+
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+
+
+
+\section{Internship}
+\runsubsection{SIEMENS INDIA}\\
+\location{Summer Project Intern|June,2020-Sep,2020|group of 7|Mentor:Deepak Singh|Theme of Project:Automation in Hospital Systems}
+\vspace{\topsep}
+\begin{tightemize}
+\item It is solution for Hospitals in which we tried to minimize human contact to avoid the spread of COVID-19 virus in approx. cost of 6500-7000 rupees through Automation using Sensors and Microcontrollers (Arduino, 20 pin AT89C2051) , Web Application for Online Appointment \& OCR for Offline Registration. 
+\item Tech Stacks - HTML, CSS, Javascript, Bootstrap, SQL, Php, Python, OpenCV, C/C++
+\item Report - \href{https://github.com/PSoni8/Seimens-Project}{\bf Link}
+\end{tightemize}
+
+\sectionsep
+
+\section{Projects}
+
+\runsubsection{Book Centre}
+\location{}
+\begin{tightemize}
+\item An Online platform for retailers and customers to sell and buy books respectively having features like Role based access and email alert for admin and users, Cart and Online Payments, Supply-Chain Management, etc.
+\item Tech Stacks - Reactjs, Bootstrap, Nodejs, Expressjs \& MongoDB.
+\item Code - \href{https://github.com/PSoni8/Bookcentre}{\bf Link}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Find my Caption}
+\location{}
+\begin{tightemize}
+\item A model trained using Flickr-8k dataset \& VGG16 model which predicts caption for the provided image by users using CNN \& LSTM deep learning model.
+\item Tech Stacks - Python, Keras
+\item Code - \href{https://github.com/PSoni8/Find-my-Caption}{\bf  Link}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Developers Book}
+\location{}
+\begin{tightemize}
+\item A web application where authenticated users can search summarized Github profile using Github username of any Developer. 
+\item Tech Stacks - Reactjs, Github API, Fusion Charts API, Auth0 API
+\item Code - \href{https://github.com/PSoni8/Developer-s-Book}{\bf Link} 
+\end{tightemize}
+
+\sectionsep
+
+\section{Honour \& Extra-Curricular}
+
+\runsubsection{Hackfest}
+\location{}
+\begin{tightemize}
+\item Selected as Participant in GirlScript Summer of Code - 2021.\\
+\item Appreciation from Synopsys for "Inno Champ Contest" - 2020.\\
+\item Participated and Ranked 39 in Quintathlon event - Avishkar'2k20.\\
+\item Participated and Built 4-Bit ALU using Verilog in FPGA event - Avishkar'19.\\
+\item Participated and Built Tourist Guide Web App in Webster event - Avishkar'18.\\
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Scholarship}
+\location{}
+\begin{tightemize}
+\item Scholarship for 4 Years By SIEMENS INDIA - 2018.\\ Perks: Mechatronics training \& Career Counselling by Siemens, Soft Skill Training by Growth Centre, RIPE Global \& Smile Foundation.\\
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Test-score}
+\location{}
+\begin{tightemize}
+\item Scored more than 75\% in TCS NQT - 2020.\\
+\item Scored 16293 AIR in JEE-Mains over 11 lakhs aspirants - 2018.\\ 
+\item Scored 320 out of 450 in BITSAT - 2018.\\
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Sports}
+\location{}
+\begin{tightemize}
+\item Gold Medal in Volleyball on College Sports Day(Josh) - 2019.\\
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Scholastic}
+\location{} 
+\begin{tightemize}
+\item Excellence Award for Good Performance in AISSCE
+in Bokaro by Jagran - 2017. \\
+\item 2nd Rank Holder at School Level \& Scored 100\% in "Painting" in AISSCE - 2017.\\
+\item Academics Excellence Award in 11th standard - 2016.\\
+\item 2nd Rank Holder at School Level in AISSE - 2015.\\
+\item Head Girl and House Caption for 2 years in DAV Public School - 2015 - 2017.\\
+\item House Caption(Rajendra house) for 2 years in BISSS 8/B - 2013 - 2015. \\
+\end{tightemize}
+
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
