@@ -1,2 +1,2 @@
 # Resume-Latex-Code
-Resume of one page , modified version of Deedy CV.
+It is my pre-final resume code in latex.
